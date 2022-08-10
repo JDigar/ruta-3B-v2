@@ -1,0 +1,7 @@
+.myborder {
+    border-radius: 15px;
+    border: 1px solid #000000;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: inset 0px 0px 30px -15px rgba(255, 200, 0, 1);
+}

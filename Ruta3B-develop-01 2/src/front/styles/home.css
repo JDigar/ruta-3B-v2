@@ -1,0 +1,67 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+
+.container {
+    max-width: 1140px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.img-center {
+    height: 520px;
+}
+
+.link {
+    list-style: none;
+}
+
+.nav-item {
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #1eae98;
+}
+
+#title,
+h1,
+h2 {
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.mini-container {
+    max-width: 1140px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.items-navbar-bottom {
+    width: 100%;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 950px) {
+    .container-navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .items-navbar-bottom {
+        display: flex;
+        justify-content: end;
+    }
+}
